@@ -8,7 +8,7 @@
   }, false);
   
  // Ваше сообщение отправлено в лайтбоксе Remodal и CF_7.
-  document.addEventListener('wpcf7mailsent', function (event) {
+  document.addEventListener('wpcf7mailsent', function (event) { 
     var instagent = $('.form-modal').remodal();
     var instconfirm = $('.modal-confirm').remodal();
     instagent.close();
